@@ -3,6 +3,7 @@ PRODUCT_PACKAGES += \
     AsusDeskClock \
     AsusSoundRecorder \
     PrcCalculator \
+    PrcCalendar \
     PrcGallery2 \
     Yuyukomessaging 
 
