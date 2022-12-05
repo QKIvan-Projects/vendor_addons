@@ -24,6 +24,13 @@ android_app_import {
 }
 
 android_app_import {
+        name: "LenovoAccount",
+        apk: "LenovoAccount/LenovoAccount.apk",
+        presigned: true,
+        product_specific: true,
+}
+
+android_app_import {
         name: "PrcCalculator",
         apk: "PrcCalculator/PrcCalculator.apk",
         presigned: true,
