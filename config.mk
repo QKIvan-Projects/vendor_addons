@@ -1,9 +1,10 @@
 # Apps
 PRODUCT_PACKAGES += \
     AsusDeskClock \
+    AsusSoundRecorder \
     PrcCalculator \
     PrcGallery2 \
-    Yuyukomessaging
+    Yuyukomessaging 
 
 # Audio
 PRODUCT_COPY_FILES += \
