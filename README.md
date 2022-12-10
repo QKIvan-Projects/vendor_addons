@@ -14,7 +14,7 @@ git clone https://github.com/QKIvan-Projects/vendor_addons addons
 
 Add
 ```
-$(call inherit-product, vendor/addons/config.mk)
+$(call inherit-product-if-exists, vendor/addons/config.mk)
 ```
 in your device tree.
 ## Addons List
