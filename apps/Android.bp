@@ -16,6 +16,14 @@ prebuilt_etc {
 }
 
 android_app_import {
+        name: "PrcCalculator",
+        apk: "PrcCalculator/PrcCalculator.apk",
+        presigned: true,
+        product_specific: true,
+        overrides: ["Calculator"],
+}
+
+android_app_import {
         name: "MotoAudioRecorder",
         apk: "MotoAudioRecorder/MotoAudioRecorder.apk",
         presigned: true,
