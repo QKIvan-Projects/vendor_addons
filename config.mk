@@ -1,7 +1,7 @@
 # Apps
 PRODUCT_PACKAGES += \
     AsusDeskClock \
-    AsusSoundRecorder \
+    MotoAudioRecorder \
     LenovoAccount \
     PrcCalculator \
     PrcCalendar \
