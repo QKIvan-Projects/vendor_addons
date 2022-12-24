@@ -31,28 +31,11 @@ android_app_import {
 }
 
 android_app_import {
-        name: "PrcCalculator",
-        apk: "PrcCalculator/PrcCalculator.apk",
-        presigned: true,
-        product_specific: true,
-        overrides: ["Calculator"],
-}
-
-android_app_import {
         name: "PrcCalendar",
         apk: "PrcCalendar/PrcCalendar.apk",
         presigned: true,
         product_specific: true,
         overrides: ["Calendar"],
-}
-
-android_app_import {
-        name: "PrcGallery2",
-        apk: "PrcGallery2/PrcGallery2.apk",
-        presigned: true,
-        privileged: true,
-        product_specific: true,
-        overrides: ["Gallery2"],
 }
 
 android_app_import {
