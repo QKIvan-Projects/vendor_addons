@@ -16,8 +16,8 @@ prebuilt_etc {
 }
 
 android_app_import {
-        name: "AsusSoundRecorder",
-        apk: "AsusSoundRecorder/AsusSoundRecorder.apk",
+        name: "MotoAudioRecorder",
+        apk: "MotoAudioRecorder/MotoAudioRecorder.apk",
         presigned: true,
         privileged: true,
         product_specific: true,
