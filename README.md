@@ -1,29 +1,32 @@
 # vendor_addons
 
-This is a repo to replace some system apps
+This is a repo to replace some system apps.(For Project-Kaleidoscope)
 
 ## How to use
 
 ### 1.Clone this repo
 
 ```
-git clone https://github.com/QKIvan-Projects/vendor_addons addons
+git clone https://github.com/QKIvan-Projects/vendor_addons addons -b sunflowerleaf
 ```
 
 ### 2.Inherit this repo
 
 Add
+
 ```
 $(call inherit-product, vendor/addons/config.mk)
 ```
+
 in your device tree.
+
 ## Addons List
 
 ## Software:
 
 - AsusDeskClock 
-- AsusSoundRecorder 
-- LenovoAccount(To support PrcCalendar)
+- MotoAudioRecorder
+- LenovoAccount (To support PrcCalendar)
 - PrcCalculator
 - PrcCalendar
 - PrcGallery2
@@ -60,4 +63,4 @@ Special thanks to the following people or projects:
 
 - Motorola
 
-
+- ASUS
