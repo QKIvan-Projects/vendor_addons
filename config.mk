@@ -4,5 +4,4 @@ PRODUCT_PACKAGES += \
     MotoAudioRecorder \
     LenovoAccount \
     PrcCalculator \
-    PrcCalendar \
-    Yuyukomessaging 
+    PrcCalendar 

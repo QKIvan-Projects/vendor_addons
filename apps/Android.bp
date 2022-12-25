@@ -45,11 +45,3 @@ android_app_import {
         product_specific: true,
         overrides: ["Calendar"],
 }
-
-android_app_import {
-        name: "Yuyukomessaging",
-        apk: "Yuyukomessaging/Yuyukomessaging.apk",
-        presigned: true,
-        product_specific: true,
-        overrides: ["messaging"],
-}
